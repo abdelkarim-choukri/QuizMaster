@@ -1,0 +1,31 @@
+.start{
+  color:#56445D;
+  background-color: #8FBC94;
+    width: 80%; /* Specify a width for the div element */
+    margin: auto; /* Center the div element */
+    margin-top: 13%;
+    position: relative;
+    z-index: 2;
+    /* background-color:rgb(98, 98, 187) ; */
+    padding: 3%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:#8FBC94;
+    
+  }
+
+
+h2,label{
+  background-color: #8FBC94;
+}
+
+
+@media screen and (max-width: 400px) {
+  div{
+    font-size: 0.9rem;
+  }
+  .start{
+    margin-top: 30%;
+  }
+
+}
